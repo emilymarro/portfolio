@@ -1,0 +1,30 @@
+body {
+/*  background-color: #04575f;*/
+  background-color: #6f6d7a;
+/*background-color: #cac8bc;*/
+}
+
+
+div.jumbotron {
+  background-image: url(http://res.cloudinary.com/emilymarro/image/upload/v1520279484/sea-2755906_1920_dfxw3z.jpg);
+ /* background-image: url(http://res.cloudinary.com/emilymarro/image/upload/v1520279484/red-diagonal-bricks-880745_1920_yus5ub.jpg);*/
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  border-width: 5px;
+  border-color: #bb6e76;
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: white;
+  color: black;
+}
+
+.carousel {
+  vertical-align: middle;
+  width:640px;
+  height:360px;
+}
