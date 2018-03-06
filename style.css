@@ -1,7 +1,8 @@
 body {
 /*  background-color: #04575f;*/
-  background-color: #6f6d7a;
-/*background-color: #cac8bc;*/
+/*  background-color: #6f6d7a;*/
+  background-color: white;
+  font-family: 'Muli', sans-serif;
 }
 
 
@@ -16,6 +17,7 @@ div.jumbotron {
   border-width: 5px;
   border-color: #bb6e76;
   text-align: center;
+  font-family: 'Muli', sans-serif;
 }
 
 .carousel-caption {
@@ -27,4 +29,8 @@ div.jumbotron {
   vertical-align: middle;
   width:640px;
   height:360px;
+}
+
+#about {
+  text-align: center;
 }
