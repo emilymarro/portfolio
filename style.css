@@ -5,6 +5,9 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
+h2 {
+  text-decoration: underline;
+}
 
 div.jumbotron {
   background-image: url(http://res.cloudinary.com/emilymarro/image/upload/v1520279484/sea-2755906_1920_dfxw3z.jpg);
@@ -20,17 +23,87 @@ div.jumbotron {
   font-family: 'Muli', sans-serif;
 }
 
-.carousel-caption {
-  background-color: white;
-  color: black;
+div.contact {
+  align-items: center;
 }
 
-.carousel {
-  vertical-align: middle;
-  width:640px;
-  height:360px;
+nav {
+  position: fixed;
 }
 
-#about {
+.about {
+  padding: 10px;
+  margin: 10px;
   text-align: center;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+/*    font-weight: 700;*/
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}*/
+
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #0099cc;
+  color: #0099cc;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn btn-primary btn-lg{
+  margin: 10px;
+}
+
+.space {
+  margin: 20px;
+  text-align: center;
+}
+
+#skills {
+  font-style: bold;
+  margin-top: 50px;
+}
+
+
+#portfolio {
+  margin-top: 10px;
+}
+
+#contact {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
