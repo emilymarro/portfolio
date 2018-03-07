@@ -2,6 +2,7 @@ body {
 /*  background-color: #04575f;*/
 /*  background-color: #6f6d7a;*/
   background-color: white;
+  color: #7C6B72;
   font-family: 'Muli', sans-serif;
 }
 
@@ -27,9 +28,9 @@ div.contact {
   align-items: center;
 }
 
-nav {
+/*nav {
   position: fixed;
-}
+}*/
 
 .about {
   padding: 10px;
@@ -39,33 +40,18 @@ nav {
 
 .btn {
     padding: 14px 24px;
-    border: 0 none;
-/*    font-weight: 700;*/
+    border: none;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-/*.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
-}*/
-
-.btn.outline {
-  background: none;
-  padding: 12px 22px;
-}
-
-.btn-primary.outline {
-  border: 2px solid #0099cc;
-  color: #0099cc;
-}
-
 .btn-primary {
-    background: #0099cc;
+    background: #33a6cc;
     color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: #0099cc;
 }
 
 .btn-primary:active, .btn-primary.active {
@@ -80,11 +66,19 @@ nav {
 .space {
   margin: 20px;
   text-align: center;
+  color: #7C6B72;
 }
+
+h2.space {
+  color: black;
+  font-weight: bold;
+}
+
 
 #skills {
   font-style: bold;
   margin-top: 50px;
+  font-style: oblique;
 }
 
 
